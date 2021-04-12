@@ -94,14 +94,15 @@ For a step by step compilation process, see: https://github.com/emviveros/Camomi
 - [CICM](http://cicm.mshparisnord.org)
 - [Université Paris 8](https://www.univ-paris8.fr)
 
-### Author
+### Authors
 
-- [Pierre Guillot](https://github.com/pierreguillot)
+- [Esteban Viveros](https://github.com/emviveros) and [Alexandre Torres Porres](https://github.com/porres)
 
 ### Credits
 
 - [Pure Data](http://msp.ucsd.edu/software.html) by Miller Puckette and others
 -  by the Peter Brinkmann, Dan Wilcox and others
+- [Camomile](https://github.com/pierreguillot/Camomile) by Pierre Guillot
 - [ELSE](https://github.com/porres/pd-else) by Alexandre Torres Porres and others
 - [Juce](https://github.com/WeAreROLI/JUCE) by ROLI Ltd.
 - [MoodyCamel](https://github.com/cameron314/concurrentqueue) by Cameron Desrochers
