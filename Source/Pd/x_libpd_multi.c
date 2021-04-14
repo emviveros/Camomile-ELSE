@@ -465,6 +465,7 @@ void pimp_tilde_setup(void);
 void pinknoise_tilde_setup(void);
 void pluck_tilde_setup(void);
 void pmosc_tilde_setup(void);
+void power_tilde_setup(void);
 void properties_setup(void);
 void pulse_tilde_setup(void);
 void pulsecount_tilde_setup(void);
@@ -740,6 +741,7 @@ void libpd_multi_init(void)
         pinknoise_tilde_setup();
         pluck_tilde_setup();
         pmosc_tilde_setup();
+        power_tilde_setup();
         properties_setup();
         pulse_tilde_setup();
         pulsecount_tilde_setup();
