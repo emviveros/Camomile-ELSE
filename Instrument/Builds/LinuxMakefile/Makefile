@@ -270,6 +270,7 @@ OBJECTS_SHARED_CODE := \
   $(JUCE_OBJDIR)/pinknoise~_5c4e560f.o \
   $(JUCE_OBJDIR)/pluck~_a4333c32.o \
   $(JUCE_OBJDIR)/pmosc~_cfba38d1.o \
+  $(JUCE_OBJDIR)/power~_466efcce.o \
   $(JUCE_OBJDIR)/properties_7bf89368.o \
   $(JUCE_OBJDIR)/pulse~_71ce71ba.o \
   $(JUCE_OBJDIR)/pulsecount~_2ea6d11d.o \
@@ -296,6 +297,7 @@ OBJECTS_SHARED_CODE := \
   $(JUCE_OBJDIR)/rescale~_5d51c59c.o \
   $(JUCE_OBJDIR)/resonant~_c8dc29eb.o \
   $(JUCE_OBJDIR)/resonant2~_5287ad89.o \
+  $(JUCE_OBJDIR)/retrieve_ebfbe831.o \
   $(JUCE_OBJDIR)/rint_165215f2.o \
   $(JUCE_OBJDIR)/rint~_b3f1ce96.o \
   $(JUCE_OBJDIR)/rms~_168cdf5b.o \
@@ -324,6 +326,7 @@ OBJECTS_SHARED_CODE := \
   $(JUCE_OBJDIR)/standard~_c8904a16.o \
   $(JUCE_OBJDIR)/status~_d999d0c1.o \
   $(JUCE_OBJDIR)/stepnoise~_27f82565.o \
+  $(JUCE_OBJDIR)/store_fbaa2996.o \
   $(JUCE_OBJDIR)/susloop~_8a0d5b5e.o \
   $(JUCE_OBJDIR)/suspedal_4bf3ba7e.o \
   $(JUCE_OBJDIR)/svfilter~_56009078.o \
@@ -1286,6 +1289,11 @@ $(JUCE_OBJDIR)/pmosc~_cfba38d1.o: ../../../Source/Pd/ELSE/pmosc~.c
 	@echo "Compiling pmosc~.c"
 	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
 
+$(JUCE_OBJDIR)/power~_466efcce.o: ../../../Source/Pd/ELSE/power~.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling power~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
+
 $(JUCE_OBJDIR)/properties_7bf89368.o: ../../../Source/Pd/ELSE/properties.c
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling properties.c"
@@ -1414,6 +1422,11 @@ $(JUCE_OBJDIR)/resonant~_c8dc29eb.o: ../../../Source/Pd/ELSE/resonant~.c
 $(JUCE_OBJDIR)/resonant2~_5287ad89.o: ../../../Source/Pd/ELSE/resonant2~.c
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling resonant2~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/retrieve_ebfbe831.o: ../../../Source/Pd/ELSE/retrieve.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling retrieve.c"
 	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/rint_165215f2.o: ../../../Source/Pd/ELSE/rint.c
@@ -1554,6 +1567,11 @@ $(JUCE_OBJDIR)/status~_d999d0c1.o: ../../../Source/Pd/ELSE/status~.c
 $(JUCE_OBJDIR)/stepnoise~_27f82565.o: ../../../Source/Pd/ELSE/stepnoise~.c
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling stepnoise~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/store_fbaa2996.o: ../../../Source/Pd/ELSE/store.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling store.c"
 	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_SHARED_CODE) $(JUCE_CFLAGS_SHARED_CODE) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/susloop~_8a0d5b5e.o: ../../../Source/Pd/ELSE/susloop~.c

@@ -462,6 +462,7 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pinknoise~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pluck~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pmosc~.c"/>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\power~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\properties.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pulse~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pulsecount~.c"/>
@@ -488,6 +489,7 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\rescale~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\resonant~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\resonant2~.c"/>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\retrieve.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\rint.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\rint~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\rms~.c"/>
@@ -516,6 +518,7 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\standard~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\status~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\stepnoise~.c"/>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\store.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\susloop~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\suspedal.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\svfilter~.c"/>
@@ -2649,6 +2652,7 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\All_objects.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\allpass.filt~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\allpass_unit.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\amean.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\any2symbol.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\autotune.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\autotune2.pd"/>
@@ -2708,6 +2712,7 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gain~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gain2~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gatehold~.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gmean.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\grain.live.grain.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\grain.live~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\grain.sampler.grain.pd"/>
@@ -2723,6 +2728,7 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\hip.bw~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\impulse.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\insert.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\interpolate.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\iterate.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\lastvalue.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\lcm.pd"/>
@@ -2746,14 +2752,18 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mix4~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mono.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mono.rev~.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\morph.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\morph~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mov.avg.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\ms2samps.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\ms2samps~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mtx.ctl.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\multi.vsl.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\nmess.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\noisegate~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\norm~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\note2pitch.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\op.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\order.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\oscbank~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\oscbank2~.pd"/>
@@ -2784,6 +2794,7 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pvoc.player~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pvoc~.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\rampnoise.pd"/>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\rand.list.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\randpulse.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\randpulse2.pd"/>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\range.hsl.pd"/>

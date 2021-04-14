@@ -865,6 +865,9 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pmosc~.c">
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\power~.c">
+      <Filter>CamomileFx\Source\Pd\ELSE</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\properties.c">
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
@@ -941,6 +944,9 @@
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\resonant2~.c">
+      <Filter>CamomileFx\Source\Pd\ELSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\retrieve.c">
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\rint.c">
@@ -1025,6 +1031,9 @@
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\stepnoise~.c">
+      <Filter>CamomileFx\Source\Pd\ELSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\store.c">
       <Filter>CamomileFx\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\susloop~.c">
@@ -4478,6 +4487,9 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\allpass_unit.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\amean.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\any2symbol.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4655,6 +4667,9 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gatehold~.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\gmean.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\grain.live.grain.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4698,6 +4713,9 @@
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\insert.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\interpolate.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\iterate.pd">
@@ -4769,6 +4787,9 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mono.rev~.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\morph.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\morph~.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4784,6 +4805,12 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\mtx.ctl.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\multi.vsl.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\nmess.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\noisegate~.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4791,6 +4818,9 @@
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\note2pitch.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\op.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\order.pd">
@@ -4881,6 +4911,9 @@
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\rampnoise.pd">
+      <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\rand.list.pd">
       <Filter>CamomileFx\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\randpulse.pd">
