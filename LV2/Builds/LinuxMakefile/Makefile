@@ -149,6 +149,7 @@ OBJECTS_DYNAMIC_LIBRARY := \
   $(JUCE_OBJDIR)/cusp~_af332144.o \
   $(JUCE_OBJDIR)/decay~_348c75f9.o \
   $(JUCE_OBJDIR)/decay2~_5ce0e33b.o \
+  $(JUCE_OBJDIR)/default_fb756ef6.o \
   $(JUCE_OBJDIR)/del~_fe351c08.o \
   $(JUCE_OBJDIR)/detect~_e5e63070.o \
   $(JUCE_OBJDIR)/dir_94983a42.o \
@@ -294,6 +295,8 @@ OBJECTS_DYNAMIC_LIBRARY := \
   $(JUCE_OBJDIR)/sig2float~_edae9c98.o \
   $(JUCE_OBJDIR)/sin~_1807141b.o \
   $(JUCE_OBJDIR)/sine~_e8d13846.o \
+  $(JUCE_OBJDIR)/slew~_ed791d48.o \
+  $(JUCE_OBJDIR)/slew2~_c18925cc.o \
   $(JUCE_OBJDIR)/slice_eda80607.o \
   $(JUCE_OBJDIR)/sort_185d4d13.o \
   $(JUCE_OBJDIR)/spread_aa6867a8.o \
@@ -755,6 +758,11 @@ $(JUCE_OBJDIR)/decay~_348c75f9.o: ../../../Source/Pd/ELSE/decay~.c
 $(JUCE_OBJDIR)/decay2~_5ce0e33b.o: ../../../Source/Pd/ELSE/decay2~.c
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling decay2~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/default_fb756ef6.o: ../../../Source/Pd/ELSE/default.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling default.c"
 	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/del~_fe351c08.o: ../../../Source/Pd/ELSE/del~.c
@@ -1480,6 +1488,16 @@ $(JUCE_OBJDIR)/sin~_1807141b.o: ../../../Source/Pd/ELSE/sin~.c
 $(JUCE_OBJDIR)/sine~_e8d13846.o: ../../../Source/Pd/ELSE/sine~.c
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling sine~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/slew~_ed791d48.o: ../../../Source/Pd/ELSE/slew~.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling slew~.c"
+	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/slew2~_c18925cc.o: ../../../Source/Pd/ELSE/slew2~.c
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling slew2~.c"
 	$(V_AT)$(CC) $(JUCE_CFLAGS) $(JUCE_CPPFLAGS_DYNAMIC_LIBRARY) $(JUCE_CFLAGS_DYNAMIC_LIBRARY) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/slice_eda80607.o: ../../../Source/Pd/ELSE/slice.c

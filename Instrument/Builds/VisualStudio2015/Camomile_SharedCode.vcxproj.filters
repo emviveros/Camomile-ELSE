@@ -571,6 +571,9 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\decay2~.c">
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\default.c">
+      <Filter>Camomile\Source\Pd\ELSE</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\del~.c">
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>
@@ -1004,6 +1007,12 @@
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\sine~.c">
+      <Filter>Camomile\Source\Pd\ELSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\slew~.c">
+      <Filter>Camomile\Source\Pd\ELSE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\Pd\ELSE\slew2~.c">
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\slice.c">
@@ -4562,6 +4571,12 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\car2pol~.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\cents2frac.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\cents2scale.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\chorus~.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4641,6 +4656,9 @@
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\flanger~.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\frac2cents.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\frac2dec.pd">
@@ -4808,6 +4826,9 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\multi.vsl.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\multi.vsl.unit.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\nmess.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4856,6 +4877,9 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pan8~.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pattern.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\perlin~.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4871,7 +4895,13 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pick.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pimp.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\ping.pong~.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pipe2.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pitch.shift~.pd">
@@ -4893,6 +4923,12 @@
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pol2car~.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\presets.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\presets.send.clone.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\pulse.pd">
@@ -4967,6 +5003,12 @@
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\samps2ms~.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\scale2cents.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\scales.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\schmitt.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
@@ -4977,6 +5019,12 @@
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\setdsp~.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\slew.pd">
+      <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
+    </None>
+    <None Include="..\..\..\Source\Pd\ELSE\Abstractions\slew2.pd">
       <Filter>Camomile\Source\Pd\ELSE\Abstractions</Filter>
     </None>
     <None Include="..\..\..\Source\Pd\ELSE\Abstractions\slider2d.pd">

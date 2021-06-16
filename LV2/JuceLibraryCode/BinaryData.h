@@ -15,7 +15,7 @@ namespace BinaryData
     const int            add_pdSize = 591;
 
     extern const char*   All_objects_pd;
-    const int            All_objects_pdSize = 15238;
+    const int            All_objects_pdSize = 15843;
 
     extern const char*   allpass_filt_pd;
     const int            allpass_filt_pdSize = 2425;
@@ -98,11 +98,17 @@ namespace BinaryData
     extern const char*   car2pol_pd2;
     const int            car2pol_pd2Size = 573;
 
+    extern const char*   cents2frac_pd;
+    const int            cents2frac_pdSize = 2866;
+
+    extern const char*   cents2scale_pd;
+    const int            cents2scale_pdSize = 776;
+
     extern const char*   chorus_pd;
     const int            chorus_pdSize = 1364;
 
     extern const char*   circle_pd;
-    const int            circle_pdSize = 34318;
+    const int            circle_pdSize = 34520;
 
     extern const char*   clock_pd;
     const int            clock_pdSize = 1901;
@@ -117,7 +123,7 @@ namespace BinaryData
     const int            conv_pdSize = 9533;
 
     extern const char*   convpartition_pd;
-    const int            convpartition_pdSize = 3959;
+    const int            convpartition_pdSize = 3939;
 
     extern const char*   count_pd;
     const int            count_pdSize = 9202;
@@ -168,7 +174,7 @@ namespace BinaryData
     const int            envelope_pdSize = 113677;
 
     extern const char*   eqdiv_pd;
-    const int            eqdiv_pdSize = 1092;
+    const int            eqdiv_pdSize = 2175;
 
     extern const char*   euclid_pd;
     const int            euclid_pdSize = 1487;
@@ -178,6 +184,9 @@ namespace BinaryData
 
     extern const char*   flanger_pd;
     const int            flanger_pdSize = 1427;
+
+    extern const char*   frac2cents_pd;
+    const int            frac2cents_pdSize = 667;
 
     extern const char*   frac2dec_pd;
     const int            frac2dec_pdSize = 615;
@@ -255,7 +264,7 @@ namespace BinaryData
     const int            interpolate_pdSize = 3544;
 
     extern const char*   iterate_pd;
-    const int            iterate_pdSize = 1982;
+    const int            iterate_pdSize = 1930;
 
     extern const char*   lastvalue_pd;
     const int            lastvalue_pdSize = 1284;
@@ -342,7 +351,10 @@ namespace BinaryData
     const int            mtx_ctl_pdSize = 18460;
 
     extern const char*   multi_vsl_pd;
-    const int            multi_vsl_pdSize = 37564;
+    const int            multi_vsl_pdSize = 37638;
+
+    extern const char*   multi_vsl_unit_pd;
+    const int            multi_vsl_unit_pdSize = 3461;
 
     extern const char*   nmess_pd;
     const int            nmess_pdSize = 899;
@@ -354,7 +366,7 @@ namespace BinaryData
     const int            norm_pdSize = 979;
 
     extern const char*   note2pitch_pd;
-    const int            note2pitch_pdSize = 2023;
+    const int            note2pitch_pdSize = 2637;
 
     extern const char*   op_pd;
     const int            op_pdSize = 8111;
@@ -392,6 +404,9 @@ namespace BinaryData
     extern const char*   pan8_pd;
     const int            pan8_pdSize = 13283;
 
+    extern const char*   pattern_pd;
+    const int            pattern_pdSize = 6154;
+
     extern const char*   perlin_pd;
     const int            perlin_pdSize = 1939;
 
@@ -407,20 +422,26 @@ namespace BinaryData
     extern const char*   pick_pd;
     const int            pick_pdSize = 2365;
 
+    extern const char*   pimp_pd;
+    const int            pimp_pdSize = 3933;
+
     extern const char*   ping_pong_pd;
     const int            ping_pong_pdSize = 1184;
+
+    extern const char*   pipe2_pd;
+    const int            pipe2_pdSize = 772;
 
     extern const char*   pitch_shift_pd;
     const int            pitch_shift_pdSize = 1553;
 
     extern const char*   pitch2note_pd;
-    const int            pitch2note_pdSize = 3826;
+    const int            pitch2note_pdSize = 7924;
 
     extern const char*   plate_rev_pd;
     const int            plate_rev_pdSize = 9731;
 
     extern const char*   play_file_pd;
-    const int            play_file_pdSize = 22591;
+    const int            play_file_pdSize = 22547;
 
     extern const char*   player_pd;
     const int            player_pdSize = 11481;
@@ -430,6 +451,12 @@ namespace BinaryData
 
     extern const char*   pol2car_pd2;
     const int            pol2car_pd2Size = 367;
+
+    extern const char*   presets_pd;
+    const int            presets_pdSize = 15138;
+
+    extern const char*   presets_send_clone_pd;
+    const int            presets_send_clone_pdSize = 4140;
 
     extern const char*   pulse_pd;
     const int            pulse_pdSize = 5603;
@@ -459,7 +486,7 @@ namespace BinaryData
     const int            randpulse2_pdSize = 1308;
 
     extern const char*   range_hsl_pd;
-    const int            range_hsl_pdSize = 24206;
+    const int            range_hsl_pdSize = 24652;
 
     extern const char*   range_pd;
     const int            range_pdSize = 1033;
@@ -503,6 +530,12 @@ namespace BinaryData
     extern const char*   samps2ms_pd2;
     const int            samps2ms_pd2Size = 391;
 
+    extern const char*   scale2cents_pd;
+    const int            scale2cents_pdSize = 592;
+
+    extern const char*   scales_pd;
+    const int            scales_pdSize = 8918;
+
     extern const char*   schmitt_pd;
     const int            schmitt_pdSize = 715;
 
@@ -510,19 +543,25 @@ namespace BinaryData
     const int            scramble_pdSize = 2147;
 
     extern const char*   sequencer_pd;
-    const int            sequencer_pdSize = 2788;
+    const int            sequencer_pdSize = 5947;
 
     extern const char*   setdsp_pd;
     const int            setdsp_pdSize = 3302;
 
+    extern const char*   slew_pd;
+    const int            slew_pdSize = 3565;
+
+    extern const char*   slew2_pd;
+    const int            slew2_pdSize = 5493;
+
     extern const char*   slider2d_pd;
-    const int            slider2d_pdSize = 35203;
+    const int            slider2d_pdSize = 35628;
 
     extern const char*   spectrograph_pd;
     const int            spectrograph_pdSize = 12961;
 
     extern const char*   stack_pd;
-    const int            stack_pdSize = 6423;
+    const int            stack_pdSize = 6500;
 
     extern const char*   status_pd;
     const int            status_pdSize = 924;
@@ -606,7 +645,7 @@ namespace BinaryData
     const int            settings_pngSize = 12539;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 199;
+    const int namedResourceListSize = 212;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];
