@@ -512,6 +512,8 @@ void shaper_tilde_setup(void);
 void sig2float_tilde_setup(void);
 void sin_tilde_setup(void);
 void sine_tilde_setup(void);
+void slew_tilde_setup(void);
+void slew2_tilde_setup(void);
 void slice_setup(void);
 void sort_setup(void);
 void spread_setup(void);
@@ -788,6 +790,8 @@ void libpd_multi_init(void)
         sig2float_tilde_setup();
         sin_tilde_setup();
         sine_tilde_setup();
+        slew_tilde_setup();
+        slew2_tilde_setup();
         slice_setup();
         sort_setup();
         spread_setup();

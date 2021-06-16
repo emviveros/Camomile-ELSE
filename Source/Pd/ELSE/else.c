@@ -19,7 +19,7 @@ static int else_minor = 0;
 static int else_bugfix = 0;
 
 #define STATUS "beta"
-static int status_number = 38;
+static int status_number = 42;
 
 static void else_obj_version(t_else_obj *x){
     int ac = 5;
@@ -39,7 +39,7 @@ void print_else_obj(t_else_obj *x){
     post("-------------------------------------------------------------------------------");
     post("  ~~~~~~~~~~|| ELSE - EL Locus Solus' Externals for Pure Data ||~~~~~~~~~~");
     post("-------------------------------------------------------------------------------");
-    post("- Version: 1.0-0 %s-%d; Released april 14th 2021", STATUS, status_number);
+    post("- Version: 1.0-0 %s-%d; Released june 16th 2021", STATUS, status_number);
     post("- Author: Alexandre Torres Porres");
     post("- Repository: https://github.com/porres/pd-else");
     post("- License: Do What The Fuck You Want To Public License, unless otherwise noted");
@@ -53,6 +53,9 @@ void print_else_obj(t_else_obj *x){
     post("- NOTE: This library also includes a tutorial by Alexandre Torres Porres");
     post("that depends on this library. Find the 'live-electronics-folder' folder");
     post("inside the 'else' folder. Please check its README on how to install it!");
+    post("-------------------------------------------------------------------------------");
+    post("- ALSO NOTE: Loading this binary did not install the ELSE library, you still");
+    post("need to add it to the \"preferences=>path\" or use [declare -path else]");
     post("-------------------------------------------------------------------------------");
     post("  ~~~~~~~~~~|| ELSE - EL Locus Solus' Externals for Pure Data ||~~~~~~~~~~");
     post("-------------------------------------------------------------------------------");
