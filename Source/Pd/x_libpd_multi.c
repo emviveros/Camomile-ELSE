@@ -487,6 +487,7 @@ void randpulse2_tilde_setup(void);
 void range_tilde_setup(void);
 void ratio2cents_setup(void);
 void ratio2cents_tilde_setup(void);
+void rec_setup(void);
 void receiver_setup(void);
 void rescale_setup(void);
 void rescale_tilde_setup(void);
@@ -763,6 +764,7 @@ void libpd_multi_init(void)
         range_tilde_setup();
         ratio2cents_setup();
         ratio2cents_tilde_setup();
+        rec_setup();
         receiver_setup();
         rescale_setup();
         rescale_tilde_setup();
