@@ -427,8 +427,6 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\nyquist~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\op~.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\openfile.c"/>
-    <ClCompile Include="..\..\..\Source\Pd\ELSE\oscilloscope.c"/>
-    <ClCompile Include="..\..\..\Source\Pd\ELSE\oscilloscope_dialog.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pack2.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pad.c"/>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pan2~.c"/>

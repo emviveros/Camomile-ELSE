@@ -163,7 +163,6 @@
 		727A91F28E770E2543046EB9 /* gui.c */ = {isa = PBXBuildFile; fileRef = 20C1E5F03D89EA9AD9200A0B; };
 		730D112A9E1C02A2EF65DEFD /* logistic~.c */ = {isa = PBXBuildFile; fileRef = 52E53754C336B7E89A676233; };
 		732B12800765C7881FAFC469 /* toggleff~.c */ = {isa = PBXBuildFile; fileRef = 1BF868073C5AFADDDB23F417; };
-		741405AAEFDCD3ED1A1DA996 /* oscilloscope.c */ = {isa = PBXBuildFile; fileRef = 95DB281B02AECFFA6FA5EB12; };
 		768A1DB235900A47F791B054 /* gbman~.c */ = {isa = PBXBuildFile; fileRef = 6A1187CD0E6FD9F12859FCA2; };
 		76F8CFF63099B79950DAC52D /* xselect2~.c */ = {isa = PBXBuildFile; fileRef = A8DFD5D6150F7F2F746B129F; };
 		770110037A28A51236E7A280 /* square~.c */ = {isa = PBXBuildFile; fileRef = 6FA757CF07EC1C02A6B42C13; };
@@ -331,7 +330,6 @@
 		F9EB9D074B63BC4B1A5FE2B7 /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXBuildFile; fileRef = C954F9431CE6C4895C5A23FF; };
 		FA6CB1714128D903B87A9C89 /* PluginProcessorReceive.cpp */ = {isa = PBXBuildFile; fileRef = 94F406BCB710D5F670B567BE; };
 		FAFF730616CC01ED7600C0A1 /* slew~.c */ = {isa = PBXBuildFile; fileRef = D0D091BCB1EFDDD3A147C3D2; };
-		FD4306FEF02364951E3A6BD8 /* oscilloscope_dialog.c */ = {isa = PBXBuildFile; fileRef = 908732722C9F3B26A3C47D3B; };
 		FD62E76728BC1482E9F6D42A /* sine~.c */ = {isa = PBXBuildFile; fileRef = 47C7117B72917B0B1B49A7DE; };
 		FE6B7BDA32D6013399FA01BF /* gray~.c */ = {isa = PBXBuildFile; fileRef = 371E95C76A069F0FA7D784EE; };
 		FF9A255FC238C45B47B71A3E /* ikeda~.c */ = {isa = PBXBuildFile; fileRef = C0D31E4C7365348E514C4FD9; };
@@ -674,7 +672,6 @@
 		8FA2EC3D7EEBF92F26F403BC /* bl.imp2~.pd */ /* bl.imp2~.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = "bl.imp2~.pd"; path = "../../../Source/Pd/ELSE/Abstractions/bl.imp2~.pd"; sourceTree = SOURCE_ROOT; };
 		8FFF55A314761282C04E163B /* standard~.c */ /* standard~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "standard~.c"; path = "../../../Source/Pd/ELSE/standard~.c"; sourceTree = SOURCE_ROOT; };
 		900027F7AC3259C6048D4813 /* mono.pd */ /* mono.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = mono.pd; path = ../../../Source/Pd/ELSE/Abstractions/mono.pd; sourceTree = SOURCE_ROOT; };
-		908732722C9F3B26A3C47D3B /* oscilloscope_dialog.c */ /* oscilloscope_dialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = oscilloscope_dialog.c; path = ../../../Source/Pd/ELSE/oscilloscope_dialog.c; sourceTree = SOURCE_ROOT; };
 		90CC18374D98E16319D13EE0 /* nmess.pd */ /* nmess.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = nmess.pd; path = ../../../Source/Pd/ELSE/Abstractions/nmess.pd; sourceTree = SOURCE_ROOT; };
 		917F52A93CABB77B6DDA7359 /* stack.pd */ /* stack.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = stack.pd; path = ../../../Source/Pd/ELSE/Abstractions/stack.pd; sourceTree = SOURCE_ROOT; };
 		9186017086D0F372BA064B37 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = ../../../Juce/modules/juce_data_structures; sourceTree = SOURCE_ROOT; };
@@ -690,7 +687,6 @@
 		94F406BCB710D5F670B567BE /* PluginProcessorReceive.cpp */ /* PluginProcessorReceive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessorReceive.cpp; path = ../../../Source/PluginProcessorReceive.cpp; sourceTree = SOURCE_ROOT; };
 		95AA78E88DC837CFDFF9E977 /* ratio2cents~.c */ /* ratio2cents~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "ratio2cents~.c"; path = "../../../Source/Pd/ELSE/ratio2cents~.c"; sourceTree = SOURCE_ROOT; };
 		95B90FA25F5E97F158275591 /* PluginEditorObject.cpp */ /* PluginEditorObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditorObject.cpp; path = ../../../Source/PluginEditorObject.cpp; sourceTree = SOURCE_ROOT; };
-		95DB281B02AECFFA6FA5EB12 /* oscilloscope.c */ /* oscilloscope.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = oscilloscope.c; path = ../../../Source/Pd/ELSE/oscilloscope.c; sourceTree = SOURCE_ROOT; };
 		966FC7F9824B81033BD2BEA6 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = ../../../Juce/modules/juce_gui_extra; sourceTree = SOURCE_ROOT; };
 		9715523FC7B1A30021EED759 /* car2pol~.pd */ /* car2pol~.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = "car2pol~.pd"; path = "../../../Source/Pd/ELSE/Abstractions/car2pol~.pd"; sourceTree = SOURCE_ROOT; };
 		9740A262C82140F85822C0AD /* gatehold~.pd */ /* gatehold~.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = "gatehold~.pd"; path = "../../../Source/Pd/ELSE/Abstractions/gatehold~.pd"; sourceTree = SOURCE_ROOT; };
@@ -1149,8 +1145,6 @@
 				1DA800DABABAF1293B0AC278,
 				6B4B00DA30B9AA5CF646FB5F,
 				50029629E62E028AEA5F7E76,
-				95DB281B02AECFFA6FA5EB12,
-				908732722C9F3B26A3C47D3B,
 				85D63268CA807DE9C3BE63D1,
 				4B5D56999EC73ABE70A2CB7B,
 				D430D4DB4338F3E00466C5BF,
@@ -2038,8 +2032,6 @@
 				510B8D0AB16352DF432FD6E7,
 				4D7931490993AD2D9B7B9B29,
 				339EAA3745C6EF1EFEE738E9,
-				741405AAEFDCD3ED1A1DA996,
-				FD4306FEF02364951E3A6BD8,
 				4A2E1133B7C7192D78A95078,
 				6A88330BBABD47E73DC611CA,
 				42B46AE19FF49203B8957D8E,

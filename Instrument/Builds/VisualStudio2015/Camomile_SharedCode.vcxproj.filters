@@ -826,12 +826,6 @@
     <ClCompile Include="..\..\..\Source\Pd\ELSE\openfile.c">
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Source\Pd\ELSE\oscilloscope.c">
-      <Filter>Camomile\Source\Pd\ELSE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Source\Pd\ELSE\oscilloscope_dialog.c">
-      <Filter>Camomile\Source\Pd\ELSE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Source\Pd\ELSE\pack2.c">
       <Filter>Camomile\Source\Pd\ELSE</Filter>
     </ClCompile>

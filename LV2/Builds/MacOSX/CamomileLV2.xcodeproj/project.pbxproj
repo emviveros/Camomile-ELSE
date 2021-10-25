@@ -89,7 +89,6 @@
 		3A18D42C5176ADFB4F703B79 /* canvas.pos.c */ = {isa = PBXBuildFile; fileRef = 714286B3955BF84D18B29D04; };
 		3CCE01EFDB85CA3837D12C55 /* zerocross~.c */ = {isa = PBXBuildFile; fileRef = 682049705A49A74DE64A6F20; };
 		3DA10E77C1FE3D212B86C94D /* decay~.c */ = {isa = PBXBuildFile; fileRef = 720AFB91EB1404C367D56EA3; };
-		3E0CA83C2C276DBB50E2BB7E /* oscilloscope_dialog.c */ = {isa = PBXBuildFile; fileRef = C39E1605AA55D433AE685383; };
 		3E0F17B7C86DB3BA8B1A4993 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = D768029F22845AD7966112D4; };
 		3E70FC4B963FB804F0DDCC3B /* pan2~.c */ = {isa = PBXBuildFile; fileRef = C3C05801AA37597D79A27A93; };
 		3FAD67332D75355CCF73565B /* rand.i.c */ = {isa = PBXBuildFile; fileRef = 142399E07B23BDDB969CE9DC; };
@@ -241,7 +240,6 @@
 		B8981039BB4C330ADCB895BE /* fold.c */ = {isa = PBXBuildFile; fileRef = C0984AFCC32D28695B24CBA7; };
 		B97D84082909DDE5E3DB0FA2 /* wrap2.c */ = {isa = PBXBuildFile; fileRef = 99B0DEB018552C098A010887; };
 		BA6B93BB1FBF154E374B1991 /* AudioUnit.framework */ = {isa = PBXBuildFile; fileRef = 07320EF078271AA5653102B6; };
-		BC3E1D27FE7E8DC1DA6A9858 /* oscilloscope.c */ = {isa = PBXBuildFile; fileRef = 04966CBE6F8F116F233A5D77; };
 		BD1958A017F46D97BBF034D1 /* x_libpd_extra_utils.c */ = {isa = PBXBuildFile; fileRef = C4B04B58282EF72B8769D4EF; };
 		BEA8ED11ED4459B221C8AAA3 /* CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 2591F8A70F1E74D75684123B; };
 		BF26F4AF31E65A0B74FFC20A /* bend.out.c */ = {isa = PBXBuildFile; fileRef = 998AFD1F80010E8E6DEC1717; };
@@ -327,7 +325,6 @@
 		02E0714013B1049AE84397CA /* PluginConsole.h */ /* PluginConsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginConsole.h; path = ../../../Source/PluginConsole.h; sourceTree = SOURCE_ROOT; };
 		043B4CA25C7A4896E599C171 /* avg.pd */ /* avg.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = avg.pd; path = ../../../Source/Pd/ELSE/Abstractions/avg.pd; sourceTree = SOURCE_ROOT; };
 		04533A1D2CECEE455B871A58 /* lorenz~.c */ /* lorenz~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "lorenz~.c"; path = "../../../Source/Pd/ELSE/lorenz~.c"; sourceTree = SOURCE_ROOT; };
-		04966CBE6F8F116F233A5D77 /* oscilloscope.c */ /* oscilloscope.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = oscilloscope.c; path = ../../../Source/Pd/ELSE/oscilloscope.c; sourceTree = SOURCE_ROOT; };
 		04FFF3F7385C445A81C3D8D5 /* sort.c */ /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sort.c; path = ../../../Source/Pd/ELSE/sort.c; sourceTree = SOURCE_ROOT; };
 		0526B7CE75C1225618A15605 /* autotune2.pd */ /* autotune2.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = autotune2.pd; path = ../../../Source/Pd/ELSE/Abstractions/autotune2.pd; sourceTree = SOURCE_ROOT; };
 		05A3C58DD5703C8CFD9C4D8E /* maxpeak~.pd */ /* maxpeak~.pd */ = {isa = PBXFileReference; lastKnownFileType = file.pd; name = "maxpeak~.pd"; path = "../../../Source/Pd/ELSE/Abstractions/maxpeak~.pd"; sourceTree = SOURCE_ROOT; };
@@ -752,7 +749,6 @@
 		C265B3E27A715C9EE201840F /* else.c */ /* else.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = else.c; path = ../../../Source/Pd/ELSE/else.c; sourceTree = SOURCE_ROOT; };
 		C36D707E8BBCEEBA46317511 /* eq~.c */ /* eq~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "eq~.c"; path = "../../../Source/Pd/ELSE/eq~.c"; sourceTree = SOURCE_ROOT; };
 		C39B0BE1A722D6EEBA6DC4C5 /* magic.c */ /* magic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = magic.c; path = ../../../Source/Pd/ELSE/shared/magic.c; sourceTree = SOURCE_ROOT; };
-		C39E1605AA55D433AE685383 /* oscilloscope_dialog.c */ /* oscilloscope_dialog.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = oscilloscope_dialog.c; path = ../../../Source/Pd/ELSE/oscilloscope_dialog.c; sourceTree = SOURCE_ROOT; };
 		C3C05801AA37597D79A27A93 /* pan2~.c */ /* pan2~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pan2~.c"; path = "../../../Source/Pd/ELSE/pan2~.c"; sourceTree = SOURCE_ROOT; };
 		C3F207D0D31A71283C12B807 /* common.div.c */ /* common.div.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = common.div.c; path = ../../../Source/Pd/ELSE/common.div.c; sourceTree = SOURCE_ROOT; };
 		C4796CB400E0693E9D495452 /* PdGui.hpp */ /* PdGui.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PdGui.hpp; path = ../../../Source/Pd/PdGui.hpp; sourceTree = SOURCE_ROOT; };
@@ -1347,8 +1343,6 @@
 				02C693CBF0B4ED6D991C7367,
 				7A183C4102491044F9F22E86,
 				F2D90B5D60F6A88C9CF39CC9,
-				04966CBE6F8F116F233A5D77,
-				C39E1605AA55D433AE685383,
 				2DD076D61E14EB375E5B8C65,
 				47F1AEF9736277BA68050D5D,
 				C3C05801AA37597D79A27A93,
@@ -1845,8 +1839,6 @@
 				CFB06ECD61FDADF15620CA80,
 				04F11FE0583BD843E8ADCCA7,
 				115BF16E7E80759793A81B55,
-				BC3E1D27FE7E8DC1DA6A9858,
-				3E0CA83C2C276DBB50E2BB7E,
 				D4F1A68B473CB3966CA70C4B,
 				1A25F8F786A429F4DC483F1D,
 				3E70FC4B963FB804F0DDCC3B,

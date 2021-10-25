@@ -448,9 +448,6 @@
           <FILE id="t8a1XX" name="nyquist~.c" compile="1" resource="0" file="../Source/Pd/ELSE/nyquist~.c"/>
           <FILE id="wmSu4H" name="op~.c" compile="1" resource="0" file="../Source/Pd/ELSE/op~.c"/>
           <FILE id="yicVdu" name="openfile.c" compile="1" resource="0" file="../Source/Pd/ELSE/openfile.c"/>
-          <FILE id="aaG5Yz" name="oscilloscope.c" compile="1" resource="0" file="../Source/Pd/ELSE/oscilloscope.c"/>
-          <FILE id="sLCybc" name="oscilloscope_dialog.c" compile="1" resource="0"
-                file="../Source/Pd/ELSE/oscilloscope_dialog.c"/>
           <FILE id="hDqwpS" name="pack2.c" compile="1" resource="0" file="../Source/Pd/ELSE/pack2.c"/>
           <FILE id="RhLIvU" name="pad.c" compile="1" resource="0" file="../Source/Pd/ELSE/pad.c"/>
           <FILE id="Y6XAWi" name="pan2~.c" compile="1" resource="0" file="../Source/Pd/ELSE/pan2~.c"/>
