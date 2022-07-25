@@ -3,4 +3,4 @@
 url=https://github.com/WeAreROLI/JUCE.git
 [submodule "Dependencies/LibPd"]
 	path = Dependencies/LibPd
-	url = https://pierreguillot@github.com/pierreguillot/libpd.git
+	url = https://github.com/emviveros/libpd.git
